@@ -1,13 +1,17 @@
 {
-  "name": "try-leaflet",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^2.9.9"
-  }
+	"name": "try-leaflet",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"devDependencies": {
+		"@mioe/eslint-config": "^0.1.1",
+		"eslint": "^8.15.0",
+		"vite": "^2.9.9"
+	}
 }
