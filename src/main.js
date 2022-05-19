@@ -2,13 +2,14 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './style.css'
 
-const map = L.map('map').setView([50, -50], 2)
+const map = L.map('map').setView([0, 0], 1)
 
 L.tileLayer(
-	'/map.png',
+	'/map/{z}/{x}/{y}.png',
 	{
+		minZoom: 3,
 		maxZoom: 6,
-		minZoom: 1,
-		tileSize: 256,
+		continuousWorld: false,
+		noWrap: true,
 	},
 ).addTo(map)
