@@ -13,5 +13,8 @@
 		"@mioe/eslint-config": "^0.1.1",
 		"eslint": "^8.15.0",
 		"vite": "^2.9.9"
+	},
+	"dependencies": {
+		"leaflet": "^1.8.0"
 	}
 }

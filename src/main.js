@@ -1,6 +1,14 @@
+import L from 'leaflet'
+import 'leaflet/dist/leaflet.css'
 import './style.css'
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const map = L.map('map').setView([50, -50], 2)
+
+L.tileLayer(
+	'/map.png',
+	{
+		maxZoom: 6,
+		minZoom: 1,
+		tileSize: 256,
+	},
+).addTo(map)
