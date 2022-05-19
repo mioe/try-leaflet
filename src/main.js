@@ -7,9 +7,17 @@ const map = L.map('map').setView([0, 0], 1)
 L.tileLayer(
 	'/map/{z}/{x}/{y}.png',
 	{
-		minZoom: 3,
+		minZoom: 0,
 		maxZoom: 6,
 		continuousWorld: false,
 		noWrap: true,
 	},
 ).addTo(map)
+
+const debugMarker = L.marker([0, 0], {
+	draggable: true,
+}).addTo(map)
+debugMarker.bindPopup('🦕 debugMarker').openPopup()
+debugMarker.on('dragend', () => {
+	debugMarker.getPopup().setContent(`🦕 ${debugMarker.getLatLng().toString()}`).openOn(map)
+})
