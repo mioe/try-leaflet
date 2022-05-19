@@ -5,10 +5,10 @@ import './style.css'
 const map = L.map('map').setView([0, 0], 1)
 
 L.tileLayer(
-	'/map/{z}/{x}/{y}.png',
+	'/map_4096x4096/{z}/{x}/{y}.png',
 	{
-		minZoom: 0,
-		maxZoom: 6,
+		minZoom: 3,
+		maxZoom: 4,
 		continuousWorld: false,
 		noWrap: true,
 	},
