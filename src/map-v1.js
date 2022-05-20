@@ -1,8 +1,9 @@
-import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
-import './style.css'
-
-const map = L.map('map').setView([0, 0], 1)
+const map = L.map('map', {
+	fullscreenControl: true,
+	fullscreenControlOptions: {
+		position: 'topleft',
+	},
+}).setView([0, 0], 1)
 
 L.tileLayer(
 	'/map_4096x4096/{z}/{x}/{y}.png',

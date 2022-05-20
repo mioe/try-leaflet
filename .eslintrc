@@ -1,3 +1,6 @@
 {
-	"extends": "@mioe/eslint-config-base"
+	"extends": "@mioe/eslint-config-base",
+	"globals": {
+		"L": "readonly"
+	}
 }

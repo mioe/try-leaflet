@@ -4,10 +4,15 @@
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/leaflet.css" />
+		<link rel="stylesheet" href="/Control.FullScreen.css" />
+
 		<title>try-leaflet</title>
 	</head>
-	<body>
-		<div id="map"></div>
-		<script type="module" src="./src/main.js"></script>
+	<body style="margin: 0;">
+		<div id="map" style="height: 100vh; margin: 0;"></div>
+		<script src="/leaflet.js"></script>
+		<script src="/Control.FullScreen.js"></script>
+		<script src="./src/map-v1.js"></script>
 	</body>
 </html>
