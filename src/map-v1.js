@@ -73,7 +73,7 @@ const svgIcon = L.divIcon({
 const markers = window.mapMarkers || []
 
 markers.forEach(marker => {
-	L.marker(map.unproject(marker.coordinates, map.getMaxZoom()), { icon: svgIcon })
+	L.marker(map.unproject(marker.coordinates, map.getMaxZoom()), { icon: svgIcon, title: marker.name })
 		.addTo(map)
 		.bindPopup(`🦕 ${marker.name}`)
 		.openPopup()

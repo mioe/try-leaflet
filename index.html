@@ -10,6 +10,15 @@
 		<title>try-leaflet</title>
 	</head>
 	<body style="margin: 0;">
+		<style>
+			.svg-icon::after {
+				content: attr(title);
+				position: absolute;
+				background: white;
+				max-height: 100%;
+			}
+		</style>
+
 		<div id="map" style="height: 100vh; margin: 0;"></div>
 		<script src="/leaflet.js"></script>
 		<script src="/Control.FullScreen.js"></script>
