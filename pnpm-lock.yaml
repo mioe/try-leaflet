@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@mioe/eslint-config': ^0.1.1
@@ -59,7 +59,7 @@ packages:
       typescript: '>=4'
     dependencies:
       '@mioe/eslint-config-base': 0.1.1_eslint@8.15.0
-      '@typescript-eslint/eslint-plugin': 5.25.0_23a3d2c79632a80e14face771e0a0a11
+      '@typescript-eslint/eslint-plugin': 5.25.0_eor5fr4wgkua4fh2zz3r4cqkce
       '@typescript-eslint/parser': 5.25.0_eslint@8.15.0
       eslint: 8.15.0
     transitivePeerDependencies:
@@ -85,7 +85,7 @@ packages:
       eslint: '>=8'
     dependencies:
       '@mioe/eslint-config-vue': 0.1.1_eslint@8.15.0
-      '@typescript-eslint/eslint-plugin': 5.25.0_23a3d2c79632a80e14face771e0a0a11
+      '@typescript-eslint/eslint-plugin': 5.25.0_eor5fr4wgkua4fh2zz3r4cqkce
       '@typescript-eslint/parser': 5.25.0_eslint@8.15.0
       eslint: 8.15.0
       eslint-plugin-vue: 8.7.1_eslint@8.15.0
@@ -119,7 +119,7 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@typescript-eslint/eslint-plugin/5.25.0_23a3d2c79632a80e14face771e0a0a11:
+  /@typescript-eslint/eslint-plugin/5.25.0_eor5fr4wgkua4fh2zz3r4cqkce:
     resolution: {integrity: sha512-icYrFnUzvm+LhW0QeJNKkezBu6tJs9p/53dpPLFH8zoM9w1tfaKzVurkPotEpAqQ8Vf8uaFyL5jHd0Vs6Z0ZQg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
