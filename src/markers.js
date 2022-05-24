@@ -269,4 +269,39 @@ window.mapMarkers = [
 		name: 'Карта пляжа №2',
 		coordinates: [2525, 2464],
 	},
+	{
+		id: 55,
+		name: 'Reception',
+		coordinates: [3257, 1206],
+	},
+	{
+		id: 56,
+		name: 'Boutique',
+		coordinates: [3377, 1202],
+	},
+	{
+		id: 57,
+		name: 'Олива',
+		coordinates: [3267, 1322],
+	},
+	{
+		id: 58,
+		name: 'Parking',
+		coordinates: [3439, 1256],
+	},
+	{
+		id: 59,
+		name: 'Вилла «Чайка»',
+		coordinates: [3695, 1274],
+	},
+	{
+		id: 60,
+		name: 'Реликтовый лес',
+		coordinates: [3461, 1476],
+	},
+	{
+		id: 61,
+		name: 'Тропа здоровья',
+		coordinates: [3617, 1610],
+	},
 ]
