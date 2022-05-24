@@ -199,10 +199,74 @@ window.mapMarkers = [
 		name: 'Пирс «Медуза»',
 		coordinates: [1789, 2759],
 	},
-	// todo
 	{
 		id: 41,
-		name: 'Пирс «Медуза»',
-		coordinates: [1789, 2759],
+		name: 'Деревья Хурмы',
+		coordinates: [2595, 1117],
+	},
+	{
+		id: 42,
+		name: 'Вилла «Верочка»',
+		coordinates: [2803, 1173],
+	},
+	{
+		id: 43,
+		name: 'Гранатовые деревья',
+		coordinates: [2999, 1225],
+	},
+	{
+		id: 44,
+		name: 'La Fontana SPA',
+		coordinates: [2149, 1931],
+	},
+	{
+		id: 45,
+		name: 'Мед пункт',
+		coordinates: [2227, 1877],
+	},
+	{
+		id: 46,
+		name: 'Библиотека',
+		coordinates: [2337, 1875],
+	},
+	{
+		id: 47,
+		name: 'Ресторан Piazzetta',
+		coordinates: [2553, 1923],
+	},
+	{
+		id: 48,
+		name: 'Ворота в SPA',
+		coordinates: [2383, 2053],
+	},
+	{
+		id: 49,
+		name: 'Беседка для массажа',
+		coordinates: [2259, 2177],
+	},
+	{
+		id: 50,
+		name: 'Балийский сад',
+		coordinates: [2459, 2157],
+	},
+	{
+		id: 51,
+		name: 'Тропа здоровья',
+		coordinates: [2697, 2174],
+	},
+	{
+		id: 52,
+		name: 'Boutique',
+		coordinates: [2413, 2354],
+	},
+	{
+		id: 53,
+		name: 'Большая беседка',
+		coordinates: [2315, 2396],
+	},
+	{
+		id: 54,
+		name: 'Карта пляжа №2',
+		coordinates: [2525, 2464],
 	},
 ]
